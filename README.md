@@ -4,19 +4,20 @@ Este projeto simula as funcionalidades básicas de um iPhone, implementando um R
 
 ## Estrutura do Projeto
 
+```
 iPhoneProject/
 ├── src/
-│ └── main/
-│ └── java/
-│ └── com/
-│ └── seuNome/
-│ └── iphone/
-│ ├── ReprodutorMusical.java
-│ ├── AparelhoTelefonico.java
-│ ├── NavegadorInternet.java
-│ └── iPhoneGUI.java
+│   └── main/
+│       └── java/
+│           └── com/
+│               └── seuNome/
+│                   └── iphone/
+│                       ├── ReprodutorMusical.java
+│                       ├── AparelhoTelefonico.java
+│                       ├── NavegadorInternet.java
+│                       └── iPhoneGUI.java
 └── README.md
-
+```
 
 ## Funcionalidades
 
@@ -40,5 +41,27 @@ iPhoneProject/
 
 A interface gráfica foi criada usando Java Swing e permite interação com botões para simular as funcionalidades do iPhone.
 
+## Como Executar
+
+Para compilar e executar o projeto, siga os passos abaixo:
+
+1. Navegue até o diretório `src/main/java`:
+   ```sh
+   cd src/main/java
+   ```
+
+2. Compile os arquivos Java:
+   ```sh
+   javac com/seuNome/iphone/*.java
+   ```
+
+3. Execute a classe `iPhoneGUI`:
+   ```sh
+   java com.seuNome.iphone.iPhoneGUI
+   ```
+
+## Contato
+
+contato via [wesley.trabalho42@outlook.com](wesley.trabalho42@outlook.com).
 
 
